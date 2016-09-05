@@ -62,13 +62,13 @@ Code
 
 The logic is simple. The Robot class provides the following functions:
 
-  long getDistanceInInches();
-  void reverse();
-  void forward();
-  void setSpeed(int wheel, int speed);
-  void stop(int wheel);
-  void turnLeft(long seconds);
-  void turnRight(long seconds);
+    long getDistanceInInches();
+    void reverse();
+    void forward();
+    void setSpeed(int wheel, int speed);
+    void stop(int wheel);
+    void turnLeft(long seconds);
+    void turnRight(long seconds);
 
 The loop() function calls a function named wanderAndWait(). This function
 gets the distance sensed by the untrasonic. If less than 8 inches, it 
